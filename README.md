@@ -1,5 +1,7 @@
-# Proyecto Final del Bootcamp Desarrollo Web Frontend - Francisco Castillo, junio 2024
-Documentación del archivo estilos2.css.
+# Proyecto Final del Bootcamp Desarrollo Web Frontend
+#  - Francisco Castillo, junio 2024 -
+
+## Documentación del archivo estilos2.css.
 Esta documentación proporciona una visión detallada de los estilos CSS aplicados, su importancia en la estructura y apariencia del sitio web Data24.
 ## 1. Estructura del proyecto:
 
