@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data24 - Data Analysis</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/estilos2.css" type="text/css">
+    <link rel="stylesheet" href="./css/toggle.css" type="text/css">
+    <link href='.\img\logo.jpg' rel='shortcut icon'>
+    <link data-turbolinks-track="true" href="https://framework-gb.cdn.gob.mx/gm/accesibilidad/css/gobmx-accesibilidad.min.css" media="all" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <svg height="250" width="300" xmlns="http://www.w3.org/2000/svg" class="logo" aria-label="Logo Data24">
+            <circle r="105" cx="150" cy="120" fill="lightblue" />
+            <image x="0" y="60" width="300" height="100" href="./img/OIP_1.jpg" alt="Imagen del Logo de Data24" />
+            .:Lo sentimos, tu navegador no soporta archivos SVG en linea.:
+        </svg>
+        <h1>Data24 | Francisco Castillo</h1>
+        <!-- En el header -->
+<header>
+    <!-- Contenido anterior omitido -->
+    <nav aria-label="Menú principal">
+        <ul id="mainMenu">
+            <!-- Elementos de la barra de navegación -->
+            <li><a href="#biografia">Biografía</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#contacto">Escríbenos</a></li>
+            
+        </ul>
+    </nav>
+</header>
+
+    </header>
+
+    <nav aria-label="Navegación secundaria">
+        <a href="#biografia">Biografía</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#contacto">Escríbenos</a>
+    </nav>
+
+    <div class="container">
+        <section id="biografia">
+            <h2>Biografía</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Sobre Nosotros</h3>
+                    <p>Hola, somos Data24, profesionales con experiencia en Análisis de Datos y Visualización. Nos apasiona contar historias sobre los datos y visualizarlos de manera estructurada. A lo largo del tiempo, hemos trabajado en varios proyectos que han contribuido a lograr que los datos hablen sobre sus antecedentes y sus prospectivas. Nuestro objetivo es seguir creciendo y aportando valor en los casos de uso que laboramos.</p>
+                </div>
+                <div class="card">
+                    <h3>Experiencia</h3>
+                    <p>El manejo de los datos es crucial y hacemos uso de tecnologías que están al alcance para poder reproducir la información, transformarla y visualizarla en plataformas interactivas donde el centro de la acción es el Análisis de los Datos.</p>
+                </div>
+            </div>
+        </section>
+        <section id="portafolio">
+            <h2>Portafolio</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Dashboard de Satisfacción del Cliente de Cadena Hotelera</h3>
+                    <img src="img/clientes.png" alt="Imagen del Proyecto de Satisfacción del Cliente">
+                    <div class="card-content">
+                        <p>En este tablero se muestra el Grado de Satisfacción del cliente de una cadena hotelera resultado de la aplicación de encuestas a huéspedes en cada hotel.</p>
+                        <p><a href="https://tclientes.netlify.app/" target="_blank">Ver +</a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Dashboard de la Disponibilidad de Agua Subterránea</h3>
+                    <img src="img/dma.png" alt="Imagen del Proyecto de Disponibilidad de Agua Subterránea">
+                    <div class="card-content">
+                        <p>Este Dashboard muestra la ubicación geográfica de los 653 Acuíferos del país y los datos publicados de la disponibilidad media anual de agua subterránea.</p>
+                        <p><a href="https://tdma23.netlify.app/" target="_blank">Ver +</a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Dashboard para control de avance de proyecto</h3>
+                    <img src="img/avance.png" alt="Imagen del Proyecto de Control de Avance">
+                    <div class="card-content">
+                        <p>El propósito principal de este Dashboard es mostrar el avance en el procesamiento de datos sobre pozos de aguas subterráneas ubicados en distintos Acuíferos del país.</p>
+                        <p><a href="https://tavance.netlify.app/" target="_blank">Ver +</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">   
+            <form class="contacto__form" aria-label="Formulario de contacto">
+                <h2 class="contacto__title">Escríbenos</h2>
+                <section class="contacto__inputs">
+                    <label for="nombre">Tu nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" class="contacto__input" required>
+
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" placeholder="TuCorreo@hola.com" class="contacto__input" required>
+
+                    <label for="mensaje">Tu Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Tu Mensaje" class="contacto__input" required></textarea>
+
+                    <button type="submit" class="contacto__submit">Envía el mensaje</button>
+                </section>
+            </form>
+            <figure class="contacto__figure">
+                <img src="./img/mail1.jpg" class="contacto__img" alt="Imagen de contacto">
+            </figure>
+        </section>
+    </div>
+    
+    <footer>
+        <p>Conéctate conmigo:</p>
+        <div class="social-links" aria-label="Redes sociales">
+            <a href="https://www.linkedin.com/in/pacoharris" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/pacoharris32" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/pacoharris32" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+        <p>&copy; <span id="year"></span> Data24 | Francisco Castillo | Front End Developer | Data Analyst</p>
+        <li class="theme-toggle-container">
+            <label class="theme-toggle-switch">
+                <input type="checkbox" class="theme-toggle-checkbox">
+                <span class="theme-toggle-slider"></span>
+            </label>
+        </li>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="https://framework-gb.cdn.gob.mx/gm/accesibilidad/js/gobmx-accesibilidad.min.js"></script>
+    <script src="scripts/toggle.js"></script>
+    
+</body>
+</html>

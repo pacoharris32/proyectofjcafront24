@@ -1,0 +1,55 @@
+/* toggle.css */
+
+.theme-toggle-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Mueve el toggle al final del nav */
+}
+
+.theme-toggle-switch {
+    display: inline-block;
+    width: 60px; /* Ancho del botón */
+    height: 30px; /* Altura del botón */
+    margin-left: 10px; /* Espacio entre el botón y los elementos adyacentes */
+}
+
+
+
+
+.theme-toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.theme-toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.theme-toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .theme-toggle-slider {
+    background-color: #2196F3;
+}
+
+input:checked + .theme-toggle-slider:before {
+    transform: translateX(26px);
+}

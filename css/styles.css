@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+}
+p {
+    font-family: poppins-semibold, sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    unicode-bidi: isolate;
+}
+#mainMenu {
+    display: none;
+}
+
+#mainMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#mainMenu li {
+    margin: 10px 0;
+}
+
+#mainMenu a {
+    color: white;
+    text-decoration: none;
+}
+
+#toggleMenu {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    #mainMenu {
+        display: block;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #333;
+        width: 200px;
+        text-align: right;
+        padding: 10px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #toggleMenu {
+        display: block;
+    }
+}
