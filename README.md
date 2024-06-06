@@ -312,3 +312,4 @@ Importancia: Mantiene la consistencia tipográfica en todo el sitio.
 
 ``Esta documentación proporciona una visión detallada de los estilos CSS aplicados y su importancia en la estructura y apariencia del sitio web Data24.
 ``
+Puede consultar el proyecto completo en: `` https://pacoharris32.github.io/proyectofjcafront24/ ``
