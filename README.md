@@ -12,7 +12,7 @@ Esta documentación proporciona una visión detallada de los estilos CSS aplicad
 * scripts: Código JavaScript para herramienta de Accesibilidad del Gobierno de México.
 
 ## 2. Descripción del archivo estilos2.css perteneciente al sitio web, archivo index.html.
-En esta sección se explica cada módulo del archivo estilos2.css, describiendo su propósito y cómo contribuye a la apariencia y funcionalidad del archivo index.html. Esta documentación ayudará a entender y mantener el código. ______________
+En esta sección se explica cada módulo del archivo estilos2.css, describiendo su propósito y cómo contribuye a la apariencia y funcionalidad del archivo index.html. Esta documentación ayudará a entender y mantener el código.
 
 # Reset y Box Sizing:
 ```ruby
